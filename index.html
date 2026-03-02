@@ -3,17 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Eduardo</title>
+    <title>UpDate Sistemas</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Eduardo Dias Amaral</h1>
-        <h2>Aluno da turma CC1mb</h2>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#informacoes">Informações</a></li>
+            <li><a href="#contato">Contatos</a></li>
+        </ul>
+    </nav>
+    <header id="home">
+        <h1>Bem-vindo à empresa UpDate Sistemas</h1>
+        <p>A solução que você precisa para sua empresa</p>
     </header>
 
-    <div class="cont">
-        <p>Um parágrafo sobre mim</p>
+    <section id="informacoes">
+        <h2>O melhor sistema de vendas disponível para você</h2>
         <ul>
             <li>Emissão de notas</li>
             <li>Preço acessível</li>
@@ -22,10 +29,42 @@
         <img src="gato-siames.jpg" alt="Foto de um gato siames" style="size: 50px">
         <br>
         <button class="aperte">Aperte</button>
-    </div>
+    </section>
+
+    <section>
+        <h2>Envie seu feedback</h2>
+        <form>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">mensagem</label>
+            <textarea name="mensagem" id="mensagem" required></textarea>
+
+            <button type="submit" id="button_form">Enviar</button>
+        </form>
+    </section>
+
+    <section>
+        <video controls width="800px" height="450px">
+            <source src="video.mp4" type="video/mp4">
+            <track
+            kind="subtitles"
+            srclang="pt-br"
+            src="legendas.vtt"
+            label="Português"
+            >
+        </video>
+    </section>
 
     <footer>
-        <a href="https://www.linkedin.com/in/eduardo-dias-amaral-994b34361/">linkedin</a>  
+        <ul>
+            <li><a href="https://www.linkedin.com/in/eduardo-dias-amaral-994b34361/">linkedin</a></li>
+            <li><p>eduardodiasamaral@gmail.com</p></li>
+        </ul>
+        <p></p>
     </footer>
 </body>
 </html>
