@@ -11,6 +11,8 @@ body {
 }
 
 nav {
+    display: flex;
+    justify-content: center;
     background: #222;
     padding: 15px;
     position: fixed;
@@ -19,16 +21,16 @@ nav {
     left: 0;
     text-align: center;
 }
-nav ul {
+.nav_ul {
     list-style: none;
     display: flex;
     justify-content: center;
 }
-nav ul li {
+.nav_li {
     margin-left: 20px;
     margin-right: 20px;
 }
-nav ul li a {
+.nav_a {
     color: #d8d4c8;
     text-decoration: none;
     font-size: 18px;
@@ -44,11 +46,6 @@ footer {
     text-align: center;padding: 20px;
 }
 
-img {
-    width: 509.3px;
-    height: 339.5px;
-    align-self: center;
-}
 h1 {
     color: #e5f1fc;
 }
@@ -60,7 +57,6 @@ p {
 }
 a {
     text-decoration: none;
-    border-radius: 20px;
     color: rgb(117, 117, 114);
 }
 button {
@@ -76,9 +72,6 @@ button {
 ul {
     list-style: none;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
 }
 li {
     text-decoration: none;
@@ -115,7 +108,7 @@ form button:hover {
 }
 
 #home {
-    background: url(Sist_Vend.png) center/cover no-repeat;
+    background: url(./images/Sist_Vend.png) center/cover no-repeat;
     color: #ffffff;
     text-align: center;
     height: 416px;
@@ -139,4 +132,27 @@ form button:hover {
 .cont {
     display: flex;
     flex-direction: column;
+}
+.midia {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.info_img {
+    width: 355px;
+    height: 355px;
+    align-self: center;
+}
+.info_ul {
+    display: flex;
+    flex-direction: column;
+}
+.info_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+.nav_aud {
+    justify-self: flex-end;
 }

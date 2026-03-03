@@ -8,11 +8,15 @@
 </head>
 <body>
     <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#informacoes">Informações</a></li>
-            <li><a href="#contato">Contatos</a></li>
+        <ul class="nav_ul">
+            <li class="nav_li"><a class="nav_a" href="#home">Home</a></li>
+            <li class="nav_li"><a class="nav_a" href="#informacoes">Informações</a></li>
+            <li class="nav_li"><a class="nav_a" href="#contato">Contatos</a></li>
         </ul>
+
+        <audio controls class="nav_aud">
+            <source src="musica.mp3" type="audio/mpeg">
+        </audio>
     </nav>
     <header id="home">
         <h1>Bem-vindo à empresa UpDate Sistemas</h1>
@@ -21,12 +25,14 @@
 
     <section id="informacoes">
         <h2>O melhor sistema de vendas disponível para você</h2>
-        <ul>
-            <li>Emissão de notas</li>
-            <li>Preço acessível</li>
-            <li>Gerenciamento de estoque</li>
-        </ul>
-        <img src="gato-siames.jpg" alt="Foto de um gato siames" style="size: 50px">
+        <div class="info_main">
+            <ul class="info_ul">
+                <li>Emissão de notas</li>
+                <li>Preço acessível</li>
+                <li>Gerenciamento de estoque</li>
+            </ul>
+            <img src="./images/Main_img.png" alt="foto representando lucro e a natureza" class="info_img">
+        </div>
         <br>
         <button class="aperte">Aperte</button>
     </section>
@@ -47,15 +53,10 @@
         </form>
     </section>
 
-    <section>
+    <section class="midia">
         <video controls width="800px" height="450px">
             <source src="video.mp4" type="video/mp4">
-            <track
-            kind="subtitles"
-            srclang="pt-br"
-            src="legendas.vtt"
-            label="Português"
-            >
+            <track kind="subtitles" srclang="pt-br" src="legendas.vtt" label="Português">
         </video>
     </section>
 
