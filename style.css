@@ -7,7 +7,7 @@
 
 body {
     min-height: 100vh;
-    background-color: #106EBE;
+    background-color: #579bd6;
 }
 
 nav {
@@ -47,7 +47,7 @@ footer {
 }
 
 h1 {
-    color: #e5f1fc;
+    color: #c1d5e7;
 }
 h2 {
     color: #0FFCBE;
@@ -108,8 +108,7 @@ form button:hover {
 }
 
 #home {
-    background: url(./images/Sist_Vend.png) center/cover no-repeat;
-    color: #ffffff;
+    background: url(./images/Sist_Vend.jpg) center/cover no-repeat;
     text-align: center;
     height: 416px;
     display: flex;
