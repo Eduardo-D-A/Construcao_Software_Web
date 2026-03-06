@@ -13,6 +13,7 @@ body {
 nav {
     display: flex;
     justify-content: center;
+    align-items: center;
     background: #222;
     padding: 15px;
     position: fixed;
@@ -110,7 +111,7 @@ form button:hover {
 #home {
     background: url(./images/Sist_Vend.jpg) center/cover no-repeat;
     text-align: center;
-    height: 416px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -126,6 +127,11 @@ form button:hover {
 
 #button_form {
     margin-top: 12px;
+}
+
+#espaco {
+    height: 84px;
+    background-color: #222;
 }
 
 .cont {
