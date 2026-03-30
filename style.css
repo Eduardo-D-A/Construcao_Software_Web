@@ -107,6 +107,16 @@ form button {
 form button:hover {
     background: #52dbb7;
 }
+table {
+    border-collapse: collapse;
+    border: 2px solid #222;
+    text-align: center;
+    margin-top: 12px;
+}
+td, th {
+    padding: 4px;
+    color: #bcc;
+}
 
 #home {
     background: url(./images/Sist_Vend.jpg) center/cover no-repeat;
@@ -142,6 +152,10 @@ form button:hover {
 #linkedin :hover{
     color: #29c299;
 }
+#imagens_cumprir_requisito {
+    display: flex;
+    justify-content: space-around;
+}
 
 .cred_item {
     color: #444;
@@ -172,4 +186,13 @@ form button:hover {
 }
 .nav_aud {
     justify-self: flex-end;
+}
+.preco {
+    display: flex;
+    flex-direction: column;
+
+}
+.img_requisito {
+    width: 200px;
+    height: 200px;
 }
