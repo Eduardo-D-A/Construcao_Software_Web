@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="br">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +16,7 @@
         </ul>
 
         <audio controls class="nav_aud">
-            <source src="musica.mp3" type="audio/mpeg">
+            <source src="Midia/audio.mp3" type="audio/mpeg">
         </audio>
     </nav>
     <div id="espaco">
@@ -38,7 +38,6 @@
             <img src="./images/Main_img.png" alt="foto representando lucro e a natureza" class="info_img">
         </div>
         <br>
-        <button class="aperte">Aperte</button>
     </section>
 
     <section>
@@ -58,18 +57,20 @@
     </section>
 
     <section class="midia">
-        <video controls width="800px" height="450px">
-            <source src="video.mp4" type="video/mp4">
-            <track kind="subtitles" srclang="pt-br" src="legendas.vtt" label="Português">
+        <video controls width="800px" height="450px" poster="">
+            <source src="Midia/video.mp4" type="video/mp4">
+            <track kind="subtitles" srclang="pt-br" src="Midia/video.vtt" label="Português">
         </video>
     </section>
 
     <footer>
-        <ul>
-            <li><a href="https://www.linkedin.com/in/eduardo-dias-amaral-994b34361/">linkedin</a></li>
-            <li><p>eduardodiasamaral@gmail.com</p></li>
+        <ul id="creditos">
+            <li  id="linkedin"><a href="https://www.linkedin.com/in/eduardo-dias-amaral-994b34361/" class="cred_item">linkedin</a></li>
+            <li><p class="cred_item">Telefone para contato: (27) 99988-3472</p></li>
+            <li><p class="cred_item">Email para contato: eduardodiasamaral@gmail.com</p></li>
+            <li><p class="cred_item">&copy;2025 Eduardo Amaral. Todos os direitos reservados</p></li>
+            <li><p class="cred_item">orientação: prof. Fabiana B. Freitas</p></li>
         </ul>
-        <p></p>
     </footer>
 </body>
 </html>

@@ -44,7 +44,8 @@ footer {
     background: rgb(225, 233, 196);
     color: #fff;
     position: sticky;
-    text-align: center;padding: 20px;
+    text-align: center;
+    padding: 20px;
 }
 
 h1 {
@@ -58,7 +59,6 @@ p {
 }
 a {
     text-decoration: none;
-    color: rgb(117, 117, 114);
 }
 button {
     background-color: #29c299;
@@ -133,7 +133,19 @@ form button:hover {
     height: 84px;
     background-color: #222;
 }
+#creditos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #222;
+}
+#linkedin :hover{
+    color: #29c299;
+}
 
+.cred_item {
+    color: #444;
+}
 .cont {
     display: flex;
     flex-direction: column;
